@@ -203,6 +203,16 @@
   position: absolute;
   bottom: -80px;
 }
+.jacket::before {
+  content: "";
+  width: 60px;
+  height: 80px;
+  background-color: #02566e;
+  border-bottom-left-radius: 50px;
+  position: absolute;
+  bottom: -80px;
+  left: 105px;
+}
 
 .red-jacket {
   width: 70px;
@@ -229,7 +239,7 @@
   content: "";
   width: 0;
   height: 0;
-  border-left: solid 50px #b73c2a;
+  border-left: solid 45px #b73c2a;
   border-bottom: solid 50px transparent;
   position: absolute;
   top: 40px;
