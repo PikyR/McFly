@@ -186,6 +186,23 @@
   z-index: -10;
 }
 
+.walkman {
+  width: 30px;
+  height: 60px;
+  background-color: #201d24;
+  position: absolute;
+  left: 80px;
+  top: 290px;
+}
+.walkman::before {
+  content: "";
+  height: 100px;
+  width: 10px;
+  background-color: #201d24;
+  position: absolute;
+  top: -100px;
+}
+
 .jacket {
   z-index: -5;
   width: 65px;
@@ -244,6 +261,110 @@
   position: absolute;
   top: 40px;
   left: -42px;
+}
+
+.left-arm {
+  width: 60px;
+  height: 160px;
+  background-color: #02566e;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  position: relative;
+  left: 140px;
+}
+.left-arm::before {
+  content: "";
+  width: 60px;
+  height: 0px;
+  border-top: 40px solid #f7c1a5;
+  border-right: 20px solid transparent;
+  position: absolute;
+  bottom: -40px;
+}
+.left-arm::after {
+  content: "";
+  width: 60px;
+  height: 40px;
+  background-color: #eda16f;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: absolute;
+  bottom: -80px;
+}
+
+.skate {
+  z-index: -30;
+  width: 120px;
+  height: 80px;
+  background-color: #201d24;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  position: absolute;
+  left: -115px;
+}
+
+.jean {
+  z-index: -20;
+  background-color: #72b0c3;
+  width: 150px;
+  height: 110px;
+  position: absolute;
+  left: 5px;
+}
+
+.left-leg {
+  width: 62px;
+  height: 50px;
+  background-color: #72b0c3;
+  position: absolute;
+  top: 110px;
+}
+.left-leg::before {
+  content: "";
+  width: inherit;
+  height: 35px;
+  background-color: #93cdd8;
+  position: absolute;
+  bottom: -35px;
+}
+.left-leg::after {
+  content: "";
+  width: 85px;
+  height: 40px;
+  background-color: #deecef;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  right: 0;
+  bottom: -75px;
+}
+
+.right-leg {
+  width: 62px;
+  height: 50px;
+  background-color: #72b0c3;
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+.right-leg::before {
+  content: "";
+  width: inherit;
+  height: 35px;
+  background-color: #93cdd8;
+  position: absolute;
+  bottom: -35px;
+}
+.right-leg::after {
+  content: "";
+  width: 85px;
+  height: 40px;
+  background-color: #deecef;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  right: 0;
+  bottom: -75px;
 }
 
 /*# sourceMappingURL=styles.css.map */
